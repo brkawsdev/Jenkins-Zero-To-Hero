@@ -21,7 +21,7 @@ pipeline {
     }
     stage('Static Code Analysis') {
       environment {
-        #SONAR_URL = "http://${JENKINS_URL}:9000"
+        
          SONAR_URL = "http://54.89.46.108:9000"
       }
       steps {
